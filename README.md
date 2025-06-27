@@ -13,11 +13,11 @@
 <table>
   <tr>
     <td align="center">
-      <img src="screenshots/home.jpg" alt="Home Page" width="400"/><br/>
+      <img src="./screenshots/home.jpg" alt="Home Page" width="400"/><br/>
       <strong>🏠 Home Page – URL Input</strong>
     </td>
     <td align="center">
-      <img src="screenshots/short.jpg" alt="Shortened URL" width="400"/><br/>
+      <img src="./screenshots/short.jpg" alt="Shortened URL" width="400"/><br/>
       <strong>✅ Shortened URL Output</strong>
     </td>
   </tr>
