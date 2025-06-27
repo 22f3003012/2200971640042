@@ -11,8 +11,19 @@
 
 ## 📸 Screenshots
 
-![Home Page](screenshots/home.jpg)
-![Shortened Result](screenshots/short.jpg)
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/home.jpg" alt="Home Page" width="300"/><br/>
+      <strong>Home Page</strong>
+    </td>
+    <td align="center">
+      <img src="screenshots/short.jpg" alt="Shortened URL" width="300"/><br/>
+      <strong>Shortened URL</strong>
+  </tr>
+</table>
 
 
 ---
