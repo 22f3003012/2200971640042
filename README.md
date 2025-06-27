@@ -24,10 +24,6 @@
 
 ![Shortened Result](./screenshots/result.png)
 
-### 🚀 Redirecting Page
-
-![Redirect](./screenshots/redirect.png)
-
 ---
 
 ## ⚙️ Features
@@ -99,6 +95,6 @@ Then open `http://localhost:3000` in your browser.
 **Roll No:** 2200971640042
 **Institute:** Galgotias College Of Engineering And Technology
 
-````
+
 
 ---
