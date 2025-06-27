@@ -11,7 +11,8 @@
 
 
 ## 📸 Screenshots
-![Home](screenshots/home.jpg) | ![Link Generation](screenshots/short.jpg) 
+![Home](screenshots/home.jpg)
+![Shortened](screenshots/short.jpg)
 
 
 
