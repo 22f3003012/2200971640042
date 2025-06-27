@@ -1,7 +1,4 @@
 
-
----
-
 ```md
 # 🔗 URL Shortener — Frontend Project
 
@@ -97,12 +94,3 @@ Then open `http://localhost:3000` in your browser.
 
 ```
 
----
-
-### ✅ Final Notes:
-- Commit this updated `README.md` file on GitHub.
-- Ensure that your images (`home.jpg`, `short.jpg`) are **in the root-level `screenshots/` folder** (which they are, per your screenshot).
-- Now go back to your repo homepage — the screenshots should be **visible, centered, and properly sized**.
-
-Let me know if you want to add a deployment link, demo video, or badge!
-```
