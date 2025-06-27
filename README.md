@@ -9,21 +9,10 @@
 
 ---
 
-## 📸 Screenshots
 
 ## 📸 Screenshots
+![Home](screenshots/home.jpg) | ![Link Generation](screenshots/short.jpg) 
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/home.jpg" alt="Home Page" width="300"/><br/>
-      <strong>Home Page</strong>
-    </td>
-    <td align="center">
-      <img src="screenshots/short.jpg" alt="Shortened URL" width="300"/><br/>
-      <strong>Shortened URL</strong>
-  </tr>
-</table>
 
 
 ---
