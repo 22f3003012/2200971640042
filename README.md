@@ -1,70 +1,104 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```md
+# 🔗 URL Shortener — Frontend Project
 
-## Available Scripts
+**Roll Number:** 2200971640042  
+**Submission Sections:**
+- `FrontendTestSubmission/`: React-based URL Shortener
+- `LoggingMiddleware/`: Reusable frontend logger
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 Live Preview (Optional)
+> _If hosted (e.g., on Netlify/Vercel), you can put the link here._
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Screenshots
 
-### `npm test`
+### 🏠 Home Page – URL Input
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Home Page](./screenshots/home.png)
 
-### `npm run build`
+### ✅ Shortened URL Output
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Shortened Result](./screenshots/result.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🚀 Redirecting Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Redirect](./screenshots/redirect.png)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚙️ Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- URL shortening with optional custom shortcode
+- Expiry time for each link (default: 30 minutes)
+- In-memory storage for simplicity
+- Reusable logger with:
+  - Log levels: info, error, warn
+  - Sends logs to external API using Bearer Token
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📁 Folder Structure
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2200971640042/
+├── LoggingMiddleware/
+│   └── logger.js
+│
+└── FrontendTestSubmission/
+├── public/
+├── src/
+│   ├── App.js
+│   ├── logger.js (or imported from ../LoggingMiddleware)
+│   └── components/
+│       ├── ShortenerForm.jsx
+│       └── RedirectHandler.jsx
+├── package.json
+└── ...
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+````
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧪 How to Run Locally
 
-### Analyzing the Bundle Size
+```bash
+cd FrontendTestSubmission
+npm install
+npm start
+````
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Then open `http://localhost:3000` in your browser.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📦 Logging Configuration
 
-### Advanced Configuration
+* Uses `fetch` to send POST logs to:
+  `http://20.244.56.144/log`
+* Authorization handled via static Bearer token
+* Used in both components for lifecycle and error logs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📄 Additional Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Built using React + Tailwind CSS
+* Fully client-side; uses `window.shortLinks` for temp storage
+* No backend used
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ✅ Submitted By
+
+**Name:** Ritwik Chandra
+**Roll No:** 2200971640042
+**Institute:** Galgotias College Of Engineering And Technology
+
+````
+
+---
