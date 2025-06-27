@@ -1,4 +1,3 @@
-
 ```md
 # 🔗 URL Shortener — Frontend Project
 
@@ -9,12 +8,20 @@
 
 ---
 
-
 ## 📸 Screenshots
-![Home](screenshots/home.jpg)
-![Shortened](screenshots/short.jpg)
 
-
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/home.jpg" alt="Home Page" width="400"/><br/>
+      <strong>🏠 Home Page – URL Input</strong>
+    </td>
+    <td align="center">
+      <img src="screenshots/short.jpg" alt="Shortened URL" width="400"/><br/>
+      <strong>✅ Shortened URL Output</strong>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -75,7 +82,7 @@ Then open `http://localhost:3000` in your browser.
 
 ## 📄 Additional Notes
 
-* Built using React + Tailwind CSS
+* Built using **React + Tailwind CSS**
 * Fully client-side; uses `window.shortLinks` for temp storage
 * No backend used
 
@@ -87,7 +94,4 @@ Then open `http://localhost:3000` in your browser.
 **Roll No:** 2200971640042
 **Institute:** Galgotias College Of Engineering And Technology
 
----
-
-```
 
