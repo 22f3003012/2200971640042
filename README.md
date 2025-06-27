@@ -19,6 +19,7 @@
   <img src="screenshots/short.jpg" alt="Shortened Result" width="600"/>
 </p>
 
+
 ## ⚙️ Features
 
 - URL shortening with optional custom shortcode
