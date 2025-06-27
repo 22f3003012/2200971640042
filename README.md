@@ -11,13 +11,9 @@
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="screenshots/home.jpg" alt="Home Page" width="600"/>
-</p>
+![Home Page](screenshots/home.jpg)
+![Shortened Result](screenshots/short.jpg)
 
-<p align="center">
-  <img src="screenshots/short.jpg" alt="Shortened Result" width="600"/>
-</p>
 
 ---
 
