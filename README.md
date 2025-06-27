@@ -1,13 +1,16 @@
 
+
+---
+
 ```md
 # 🔗 URL Shortener — Frontend Project
 
 **Roll Number:** 2200971640042  
 **Submission Sections:**
-- `FrontendTestSubmission/`: React-based URL Shortener
-- `LoggingMiddleware/`: Reusable frontend logger
+- `FrontendTestSubmission/`: React-based URL Shortener  
+- `LoggingMiddleware/`: Reusable frontend logger  
 
-
+---
 
 ## 📸 Screenshots
 
@@ -19,15 +22,16 @@
   <img src="screenshots/short.jpg" alt="Shortened Result" width="600"/>
 </p>
 
+---
 
 ## ⚙️ Features
 
-- URL shortening with optional custom shortcode
-- Expiry time for each link (default: 30 minutes)
-- In-memory storage for simplicity
-- Reusable logger with:
-  - Log levels: info, error, warn
-  - Sends logs to external API using Bearer Token
+- URL shortening with optional custom shortcode  
+- Expiry time for each link (default: 30 minutes)  
+- In-memory storage for simplicity  
+- Reusable logger with:  
+  - Log levels: info, error, warn  
+  - Sends logs to external API using Bearer Token  
 
 ---
 
@@ -89,6 +93,16 @@ Then open `http://localhost:3000` in your browser.
 **Roll No:** 2200971640042
 **Institute:** Galgotias College Of Engineering And Technology
 
+---
 
+```
 
 ---
+
+### ✅ Final Notes:
+- Commit this updated `README.md` file on GitHub.
+- Ensure that your images (`home.jpg`, `short.jpg`) are **in the root-level `screenshots/` folder** (which they are, per your screenshot).
+- Now go back to your repo homepage — the screenshots should be **visible, centered, and properly sized**.
+
+Let me know if you want to add a deployment link, demo video, or badge!
+```
