@@ -13,11 +13,11 @@
 
 ### 🏠 Home Page – URL Input
 
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/home.jpg)
 
 ### ✅ Shortened URL Output
 
-![Shortened Result](screenshots/short.png)
+![Shortened Result](screenshots/short.jpg)
 
 ---
 
