@@ -7,22 +7,17 @@
 - `FrontendTestSubmission/`: React-based URL Shortener
 - `LoggingMiddleware/`: Reusable frontend logger
 
----
 
-## 🌐 Live Preview (Optional)
-> _If hosted (e.g., on Netlify/Vercel), you can put the link here._
-
----
 
 ## 📸 Screenshots
 
 ### 🏠 Home Page – URL Input
 
-![Home Page](./screenshots/home.png)
+![Home Page](./screenshots/Screenshot 2025-06-27 160715.png)
 
 ### ✅ Shortened URL Output
 
-![Shortened Result](./screenshots/result.png)
+![Shortened Result](./screenshots/Screenshot 2025-06-27 160747.png)
 
 ---
 
